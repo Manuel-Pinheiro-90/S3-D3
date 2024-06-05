@@ -72,14 +72,14 @@ this.router.navigate(['/auth/login'])
 
 
 
-/*autoLogout():void{
+autoLogout():void{
 const accessData = this.getAccessData()
 if(!accessData) return
 const expDate = this.jwtHelper.getTokenExpirationDate(accessData.accessToken) as Date
   const expMs = expDate.getTime() - new Date().getTime()
 setTimeout(this.logout,expMs)
 
-}*/
+}
 
 
 
