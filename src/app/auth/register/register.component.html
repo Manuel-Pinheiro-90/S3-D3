@@ -1,0 +1,25 @@
+<p>register works!</p>
+<form>
+  <input
+    type="text"
+    name="nome"
+    [(ngModel)]="newUser.nome"
+    placeholder="nome"
+    class="form-control"
+  />
+  <input
+    type="email"
+    name="email"
+    [(ngModel)]="newUser.email"
+    placeholder="email"
+    class="form-control"
+  />
+  <input
+    type="password"
+    name="password"
+    [(ngModel)]="newUser.password"
+    placeholder="password"
+    class="form-control"
+  />
+  <button (click)="register()" class="btn btn-primary mt-3">Registrati</button>
+</form>

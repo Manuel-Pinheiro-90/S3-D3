@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "email": "banana@libero",
+      "password": "$2a$10$GW/VXGHMIZw4YD7TiW6qLuGnDgF6LNuOkPeyOiIGHMs8bRvBoO2fy",
+      "nome": "igmund",
+      "id": 1
+    },
+    {
+      "email": "email@nordic",
+      "password": "$2a$10$LzwtLE.v1i1CWloPX/Mj8ORToz4F1lrV8/dqA7o1OPfE1NhCcU10y",
+      "nome": "Ivar",
+      "id": 2
+    }
+  ]
+}
