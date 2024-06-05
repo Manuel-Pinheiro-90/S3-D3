@@ -7,17 +7,13 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" routerLink="/">Home</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" *ngIf="!isLoggedIn">
           <a class="nav-link" routerLink="/auth">accesso</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/utente">utente</a>
+          <a class="nav-link" routerLink="/utente" *ngIf="isLoggedIn">utente</a>
         </li>
-
-        <li class="nav-item">
-          <button class="nav-link" href="#">logout</button>
-        </li>
-        <li class="nav-item">
+        <li class="nav-item" *ngIf="isLoggedIn">
           <button (click)="logout()" class="nav-link">Logout</button>
         </li>
       </ul>
