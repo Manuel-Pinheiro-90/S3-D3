@@ -46,7 +46,7 @@ login(authData:iAuthData):Observable<iAuthResponse>{
 this.authSubject.next(data.user)
     localStorage.setItem('accessData',JSON.stringify(data))
 
-this.autoLogout()
+//this.autoLogout()
 
 
   }))
@@ -72,15 +72,14 @@ this.router.navigate(['/auth/login'])
 
 
 
-autoLogout():void{
+/*autoLogout():void{
 const accessData = this.getAccessData()
 if(!accessData) return
 const expDate = this.jwtHelper.getTokenExpirationDate(accessData.accessToken) as Date
   const expMs = expDate.getTime() - new Date().getTime()
 setTimeout(this.logout,expMs)
 
-}
-
+}*/
 
 
 

@@ -11,6 +11,24 @@
       "password": "$2a$10$LzwtLE.v1i1CWloPX/Mj8ORToz4F1lrV8/dqA7o1OPfE1NhCcU10y",
       "nome": "Ivar",
       "id": 2
+    },
+    {
+      "email": "test@libero",
+      "password": "$2a$10$Q/iOv45p5PYbeyjfj4wn9exWM7pb9dn.6ISmkthZ1jLM76L72Tw.G",
+      "nome": "S.Francesco",
+      "id": 3
+    },
+    {
+      "email": "email@finta",
+      "password": "$2a$10$VZVjaseP.03K.96ewMI4zOmjmemyLYzmnPFZfA.8JXQwJRFcfXxr2",
+      "nome": "calselmo",
+      "id": 4
+    },
+    {
+      "email": "gullem@libero",
+      "password": "$2a$10$2cXLJq6ni8TOK24kFxcwTeTg4nUCsnX3q0ag.pFRslVq.dYm6YXoy",
+      "nome": "hero",
+      "id": 5
     }
   ]
 }

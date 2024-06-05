@@ -1,22 +1,28 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+  <div class="container">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
 
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" routerLink="/">Home</a>
-        </li>
-        <li class="nav-item" *ngIf="!isLoggedIn">
-          <a class="nav-link" routerLink="/auth">accesso</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/utente" *ngIf="isLoggedIn">utente</a>
-        </li>
-        <li class="nav-item" *ngIf="isLoggedIn">
-          <button (click)="logout()" class="nav-link">Logout</button>
-        </li>
-      </ul>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink="/"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item" *ngIf="!isLoggedIn">
+            <a class="nav-link" routerLink="/auth">accesso</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/utente" *ngIf="isLoggedIn"
+              >utente</a
+            >
+          </li>
+          <li class="nav-item" *ngIf="isLoggedIn">
+            <button (click)="logout()" class="nav-link">Logout</button>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </nav>
